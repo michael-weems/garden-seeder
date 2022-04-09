@@ -1,0 +1,28 @@
+{
+    "compileOnSave": true,
+    "compilerOptions": {
+      "outDir": "../build",
+      "target": "es2015",
+      "module": "CommonJS",
+      "sourceMap": true,
+      "stripInternal": true,
+      "lib": ["ES2021", "esnext", "dom"],
+      "moduleResolution": "node",
+      "noImplicitAny": true,
+      "strictNullChecks": true,
+      "strictFunctionTypes": true,
+      "noImplicitThis": true,
+      "noUnusedLocals": true,
+      "noUnusedParameters": true,
+      "noImplicitReturns": true,
+      "noFallthroughCasesInSwitch": true,
+      "noEmitOnError": true,
+      "allowSyntheticDefaultImports": true,
+      "emitDecoratorMetadata": true,
+      "experimentalDecorators": true,
+      "esModuleInterop": true,
+      "isolatedModules": true
+    },
+    "include": ["."],
+    "exclude": ["node_modules"]
+  }

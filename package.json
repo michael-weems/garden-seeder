@@ -1,0 +1,29 @@
+{
+  "name": "garden-seeder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron ./build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michael-weems/garden-seeder.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/michael-weems/garden-seeder/issues"
+  },
+  "homepage": "https://github.com/michael-weems/garden-seeder#readme",
+  "devDependencies": {
+    "electron": "^17.0.0"
+  },
+  "dependencies": {
+    "electron-log": "^4.4.6",
+    "electron-store": "^8.0.1",
+    "electron-updater": "^4.6.5"
+  }
+}
